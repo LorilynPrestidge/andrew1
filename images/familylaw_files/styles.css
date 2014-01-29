@@ -1,0 +1,318 @@
+BODY
+{
+	font: 1em arial, sans-serif;
+	color: #444;
+}
+H1
+{
+	font: 32pt/0.5em "book antiqua", "times new romans", serif;
+	color: #21215D;
+	display: inline;
+}
+H2
+{
+	font: 20pt/1.5em "trebuchet ms", arial, sans-serif;
+	color: #808FB6;
+	display: inline;
+	letter-spacing: 1px;
+}
+H3
+{
+	font: 16pt "book antiqua", "times new romans", serif;
+	color: #2F364F;
+	font-style: italic;
+	margin: 10px 0;
+}
+H4
+{
+	font: 22pt/1.5em "book antiqua", "times new romans", serif;
+	color: #2F364F;
+	font-style: italic;
+	margin: 15px 0 0;
+}
+H5, H5 A
+{
+	font: 14pt/1.1em "trebuchet ms", arial, sans-serif;
+	color: #2F364F;
+	margin: 15px 0 0;
+	text-decoration: none;
+}
+H5 A:hover
+{
+	text-decoration: underline;
+}
+A
+{
+	color: #B6B9BE;
+	text-decoration: underline;
+}
+A:hover
+{
+	color: #898EF9;
+	text-decoration: none;
+}
+A IMG
+{
+	border: 0;
+}
+.topnav UL
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+.topnav LI
+{
+	float: left;
+	clear: none;
+}
+.topnav LI A
+{
+	margin-left: 20px;
+	padding-top: 5px;
+	display: block;
+	text-decoration: none;
+	font: 12pt "trebuchet ms", arial, sans-serif;
+	color: #030101;
+}
+.topnav LI A:hover
+{
+	color: #0022D5;
+	text-decoration: underline;
+}
+.frontblurb
+{
+	height: 250px;
+	padding: 10px 20px;
+	color: #CCC;
+	font-size: 0.8em;
+	background: #FFF url(images/righttop.jpg) no-repeat top left;
+}
+.frontblurb P
+{
+	margin: 3px 0 5px;
+}
+.frontblurb H2
+{
+	display: block;
+	color: #A2C1E6;
+	font-size: 1.4em;
+	margin: 25px 0 0;
+}
+.rootnav
+{
+	width: 463px;
+	height: 25px;
+	padding: 10px 20px 0;
+	font-size: 0.7em;
+	background: #21215D;
+	border-right: 2px solid #FFF;
+}
+.rootnav A
+{
+	color: #FEFEFE;
+	padding: 0 20px 0 10px;
+	background: #21215D url(images/arrow.gif) no-repeat right center;
+}
+.rootnav A:hover
+{
+	color: #057676;
+	text-decoration: none;
+}
+#rcolumn2 UL
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+UL.subnav
+{
+	font-size: 0.9em;
+	margin-bottom: 15px;
+}
+.subnav LI A
+{
+	display: block;
+	width: 210px;
+	background: #DBD6AD;
+	margin: 1px 0 0;
+	padding: 8px 15px;
+	color: #10494A;
+	text-decoration: none;
+}
+.subnav LI.first A
+{
+	font: 14pt/1.1em "trebuchet ms", arial, sans-serif;
+	width: 210px;
+	background: #BD481D;
+	margin: 1px 0 0;
+	padding: 12px 15px;
+	color: #FFF;
+	text-decoration: none;
+}
+.subnav LI A:hover
+{
+	background: #CFC994;
+	color: #006666;
+	text-decoration: none;
+}
+.subnav LI.first A:hover
+{
+	background: #CE5918;
+	color: #FFF;
+	text-decoration: none;
+}
+.textbox
+{
+	margin: 15px 0;
+	padding: 20px;
+	background: #458E6F;
+	border: 1px solid #21215D;
+}
+.textbox H2
+{
+	color: #A1C0E5;
+	font-size: 1em;
+	font-weight: 600;
+	margin: 0 0 20px;
+}
+.textbox P
+{
+	line-height: 1.6em;
+	font-size: 0.7em;
+}
+#main P
+{
+	margin: 8px 15px 8px 0;
+	line-height: 1.8em;
+	font-size: 0.9em;
+}
+OL
+{
+	color: #10494A;
+	font: 12pt/1em arial, sans-serif;
+	padding: 10px;
+}
+OL SPAN
+{
+	font: 12pt/1em "trebuchet ms", arial, sans-serif;
+	color: #444;
+	font-style: normal;
+}
+OL LI
+{
+	margin-left: 25px;
+	padding: 4px 0;
+}
+IMG.content, A IMG.content
+{
+	float: left;
+	margin: 10px 10px 10px 0;
+	padding: 2px;
+	background: #E4E0C2;
+	border: 2px solid #10494A;
+}
+A:hover IMG.content
+{
+	border: 2px solid #BD481D;
+}
+TABLE
+{
+	width: 100%;
+	margin-bottom: 20px;
+	font-size: 1em;
+	border-collapse: collapse;
+}
+TABLE CAPTION
+{
+	margin-top: 20px;
+	padding: 0 0 0.5em 3px;
+	font: 13pt/1.2em arial, sans-serif;
+	text-align: left;
+	letter-spacing: -1px;
+}
+TABLE TH, TABLE TD
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 4px 7px !important;
+	padding: 6px 10px;
+}
+THEAD TH
+{
+	background: #BD481D;
+	color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+TBODY TD
+{
+	background-color: #DBD6AD;
+	border-bottom: 1px solid #FFF;
+}
+TBODY TR:hover
+{
+	background-color: #CFC994;
+}
+FORM LABEL
+{
+	display: block;
+}
+FORM INPUT.text, FORM TEXTAREA
+{
+	width: 100%;
+	border: 1px solid #DBD6AD;
+	color: #444;
+	padding: 4px 5px;
+	font: 12px Arial, san-serif;
+	background-color: #E4E0C2;
+}
+FORM INPUT.text:hover, FORM TEXTAREA:hover
+{
+	border: 1px solid #CFC994;
+}
+FORM INPUT.text:focus, FORM TEXTAREA:focus
+{
+	border: 1px solid #CFC994;
+	color: #444;
+}
+FORM INPUT.button
+{
+	margin-right: 8px;
+	padding: 3px 5px;
+	font: 12px Arial, san-serif;
+}
+* HTML FORM INPUT.text, * HTML FORM TEXTAREA
+{
+	border-color: #CFC994;
+	color: #444;
+}
+.blockquote
+{
+	display: block;
+	width: 100%;
+	border-left: 2px solid #BD481D;
+	background-color: #DBD6AD;
+	margin: 10px 0 20px 10px;
+	padding: 5px;
+	font-style: italic;
+}
+.footnav
+{
+	width: 730px;
+	text-align: center;
+	padding: 10px;
+	background: #1F6362;
+	border-top: 3px solid #21215D;
+	border-bottom: 1px solid #CFC994;
+	margin: 0 0 10px;
+}
+.footnav A
+{
+	margin: 0 10px;
+	color: #FEFEFE;
+}
+.copyright
+{
+	text-align: left;
+}

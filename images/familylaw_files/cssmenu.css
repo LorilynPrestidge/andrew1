@@ -1,0 +1,144 @@
+.menu
+{
+	width: 745px;
+	height: 52px;
+	font-size: 0.85em;
+	position: relative;
+	z-index: 100;
+	border-right: 1px solid #686EF7;
+}
+* HTML .menu
+{
+	width: 746px;
+	w\idth: 745px;
+}
+.menu UL
+{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+.menu UL UL
+{
+	width: 149px;
+}
+.menu LI
+{
+	float: left;
+	width: 149px;
+	position: relative;
+}
+.menu A, .menu A:visited
+{
+	display: inline-block;
+	font: 15px normal "trebuchet ms", arial, sans-serif;
+	text-decoration: none;
+	color: #FFF;
+	width: 133px;
+	height: 50px;
+	border: 1px solid #535454;
+	border-width: 1px 0 1px 1px;
+	background: #000 url(images/menubg.jpg) repeat-x bottom left;
+	padding-left: 15px;
+	line-height: 47px;
+}
+* HTML .menu A, * HTML .menu A:visited
+{
+	width: 149px;
+	w\idth: 128px;
+}
+.menu UL UL A.drop, .menu UL UL A.drop:visited
+{
+	background: #D4D8BD url(http://www.cssplay.co.uk/graphics/drop.gif) no-repeat bottom right;
+}
+.menu UL UL A.drop:hover
+{
+	background: #6C70DA url(http://www.cssplay.co.uk/graphics/drop.gif) no-repeat bottom right;
+}
+.menu UL UL :hover>A.drop
+{
+	background: #6C70DA url(http://www.cssplay.co.uk/graphics/drop.gif) no-repeat bottom right;
+}
+.menu UL UL UL A, .menu UL UL UL A:visited
+{
+	background: #6C70DA;
+}
+.menu UL UL UL A:hover
+{
+	background: #B2AB9B;
+}
+.menu UL UL
+{
+	visibility: hidden;
+	position: absolute;
+	height: 0;
+	top: 51px;
+	left: 0;
+	width: 149px;
+	/*[disabled]border-top:1px solid #000;*/
+}
+* HTML .menu UL UL
+{
+	top: 50px;
+	t\op: 51px;
+}
+.menu UL UL UL
+{
+	left: 149px;
+	top: -1px;
+	width: 149px;
+}
+.menu UL UL UL.left
+{
+	left: -149px;
+}
+.menu TABLE
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-collapse: collapse;
+/*; } .menu ul ul a, .menu ul ul a: visited { background:#DBD6AD*/
+	color: #535454;
+	height: auto;
+	line-height: 1em;
+	padding: 10px;
+	font-size: 12px;
+	width: 128px;
+	border: 1px solid #FFF;
+	border-width: 0 1px 1px;
+}
+* HTML .menu UL UL A, * HTML .menu UL UL A:visited
+{
+	width: 150px;
+	w\idth: 128px;
+}
+.menu A:hover, .menu UL UL A:hover
+{
+	color: #FFF;
+	background: #000 url(images/menubg3.jpg);
+}
+.menu :hover>A
+{
+	color: #FFF;
+	display: block;
+	/*[disabled]background:#5C6484;*/
+	background: #000 url(images/menubg3.jpg);
+}
+.menu UL UL :hover>A
+{
+	color: #FEFEFE;
+	background: #000 url(images/menubg3.jpg);
+}
+.menu UL LI:hover UL, .menu UL A:hover UL
+{
+	visibility: visible;
+}
+.menu UL :hover UL UL
+{
+	visibility: hidden;
+}
+.menu UL :hover UL :hover UL
+{
+	visibility: visible;
+}
