@@ -2359,7 +2359,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  color: #ffffff;
+  color: black;
   background-color: #3276b1;
   border-color: #285e8e;
 }
@@ -2405,7 +2405,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-warning:active,
 .btn-warning.active,
 .open .dropdown-toggle.btn-warning {
-  color: #ffffff;
+  color: black;
   background-color: #ed9c28;
   border-color: #d58512;
 }
@@ -2451,7 +2451,7 @@ fieldset[disabled] .btn-warning.active {
 .btn-danger:active,
 .btn-danger.active,
 .open .dropdown-toggle.btn-danger {
-  color: #ffffff;
+  color: black;
   background-color: #d2322d;
   border-color: #ac2925;
 }
@@ -2497,7 +2497,7 @@ fieldset[disabled] .btn-danger.active {
 .btn-success:active,
 .btn-success.active,
 .open .dropdown-toggle.btn-success {
-  color: #ffffff;
+  color: black;
   background-color: #47a447;
   border-color: #398439;
 }
@@ -2543,7 +2543,7 @@ fieldset[disabled] .btn-success.active {
 .btn-info:active,
 .btn-info.active,
 .open .dropdown-toggle.btn-info {
-  color: #ffffff;
+  color: black;
   background-color: #39b3d7;
   border-color: #269abc;
 }
@@ -3574,7 +3574,7 @@ input[type="button"].btn-block {
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  color: #ffffff;
+  color: black;
   text-decoration: none;
   background-color: #428bca;
   outline: 0;
@@ -4812,7 +4812,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #ffffff;
+  color: #999999;
   background-color: transparent;
 }
 
@@ -4826,7 +4826,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #ffffff;
+  color: #999999;
   background-color: transparent;
 }
 
